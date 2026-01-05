@@ -28,7 +28,7 @@ input_details = interpreter.get_input_details()
 output_details = interpreter.get_output_details()
 
 # Model input size (check Edge Impulse impulse settings)
-INPUT_SIZE = (96, 96)  # Change to (128, 128) if your model uses 128x128
+INPUT_SIZE = (160, 160)  
 
 # Classes (your project labels)
 CLASSES = ['dry', 'mid_level_dry', 'wet']
