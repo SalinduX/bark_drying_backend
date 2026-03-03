@@ -1,11 +1,11 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify #create web server
 from flask_cors import CORS
 from dotenv import load_dotenv
 import os
-from PIL import Image
+from PIL import Image  #open images and resize
 import numpy as np
 import time
-import tensorflow as tf
+import tensorflow as tf  #run AI model
 
 # Load environment variables
 load_dotenv()
